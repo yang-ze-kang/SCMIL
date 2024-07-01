@@ -1,0 +1,5 @@
+logs
+__pycache__
+*.pyc
+data/kirc/wsi_annos_vit-s-dino-p16.txt
+data/luad/wsi_annos_vit-s-dino-p16.txt

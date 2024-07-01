@@ -1,0 +1,29 @@
+config_name: amil
+model:
+  model_name: SurvivalMDN
+  K: 100
+  param_share: ['mu','sigma']
+  backbone_name: AMIL
+  input_size: 384
+  hidden_size: 384
+save_dir: logs/luad
+device: cuda
+seed: 0
+batch_size: 1
+gradient_accumulation: 1
+resume: 0
+epoch: 20
+print_step: 64
+val_epoch: 1
+optimizer:
+  opt: Adam
+  loss_func: mdn_ml
+  lr: 0.0002
+  weight_decay: 0.0001
+datasets:
+  type: tcga-survival-mdn-wsi
+  fold: [1,2,3,4,5]
+  root_dir: data/kirc
+  wsi_file_path: wsi_annos_vit-s-dino-p16.txt
+  clinical_file_path: clinical.csv
+  folds_path: 5fold_wsi-rnaseq
