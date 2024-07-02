@@ -107,5 +107,13 @@ Plot survival probability distribution
 If you find our work useful in your research, please consider citing our paper at:
 
 ```text
-
+@misc{yang2024scmilsparsecontextawaremultiple,
+      title={SCMIL: Sparse Context-aware Multiple Instance Learning for Predicting Cancer Survival Probability Distribution in Whole Slide Images}, 
+      author={Zekang Yang and Hong Liu and Xiangdong Wang},
+      year={2024},
+      eprint={2407.00664},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.00664}, 
+}
 ```
