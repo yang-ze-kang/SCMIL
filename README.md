@@ -1,6 +1,6 @@
 # SCMIL
 
-Official implementation for "SCMIL: Sparse Context-aware Multiple Instance Learning for Predicting Cancer Survival Probability Distribution in Whole Slide Images"(Accepted by MICCAI2024)
+Official implementation for "[SCMIL: Sparse Context-aware Multiple Instance Learning for Predicting Cancer Survival Probability Distribution in Whole Slide Images](https://arxiv.org/abs/2407.00664)"(Accepted by MICCAI2024)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yang-ze-kang/SCMIL?style=flat-square)
